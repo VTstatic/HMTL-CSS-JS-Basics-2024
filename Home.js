@@ -1,16 +1,21 @@
-// const =  variable that can't be changed
-            //make your variables all CAPS for a good practice
+// Math =  basic mathematics functionality and constants
 
-// let = is a hackable variable declaration code
+// 
 
-const PI = 3.14159;
-let radius;
-let circumference;
+let x;
+let y = 3;
+let z = 6;
+let maximum;
+let minimum;
 
-radius = window.prompt("Enter the radius of a circle");
-radius = Number(radius);
+//x = Math.round(x);
+//x = Math.floor(x); //round down
+//x = Math.ceil(x); //ceiling
+//x = Math.pow(x, 2); //raise to the second power
+//x = Math.sqrt(x); //square
+//maximum = Math.max(x, y ,z);
+//minimum = Math.min(x, y ,z);
+x = Math.PI; //pi
 
 
-circumference = 2 * PI * radius;
-
-console.log("The circumference is:", circumference);
+console.log(x);
