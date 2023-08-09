@@ -1,31 +1,16 @@
-// Type Conversion = change the datatype of a value to another
-// (string, numbers, booleans)
-// view in console
+// const =  variable that can't be changed
+            //make your variables all CAPS for a good practice
 
-//input, if - else statement and data type
+// let = is a hackable variable declaration code
 
-let age = window.prompt("How old are you?");
+const PI = 3.14159;
+let radius;
+let circumference;
 
-console.log(typeof age);
-age = Number(age);
-
-if (age > 30-74){!
-    console.log("You're age is", age, "years old, you're getting older");
-} else {
-    console.log("You're age is", age, "years old, you're still young!");
-} 
+radius = window.prompt("Enter the radius of a circle");
+radius = Number(radius);
 
 
-// view data type of a variable using typeof
+circumference = 2 * PI * radius;
 
-let x;
-let y;
-let z;
-
-x = Number(age);
-y = String(age);
-z = Boolean(age);
-
-console.log(x, typeof x);
-console.log(y, typeof y);
-console.log(z, typeof z);
+console.log("The circumference is:", circumference);
