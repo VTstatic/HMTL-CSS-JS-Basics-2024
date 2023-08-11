@@ -1,21 +1,14 @@
-// Math =  basic mathematics functionality and constants
+// hypotenuse calculator
+let a;
+let b;
+let c;
 
-// 
+a = window.prompt("Enter Side A");
+a = Number(a);
 
-let x;
-let y = 3;
-let z = 6;
-let maximum;
-let minimum;
+b = window.prompt("Enter Side B");
+b = Number(b);
 
-//x = Math.round(x);
-//x = Math.floor(x); //round down
-//x = Math.ceil(x); //ceiling
-//x = Math.pow(x, 2); //raise to the second power
-//x = Math.sqrt(x); //square
-//maximum = Math.max(x, y ,z);
-//minimum = Math.min(x, y ,z);
-x = Math.PI; //pi
+c = Math.sqrt(Math.pow(a, 2) + Math.pow(b, 2));
 
-
-console.log(x);
+console.log("Side C:", c);
