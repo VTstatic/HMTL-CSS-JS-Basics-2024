@@ -1,4 +1,14 @@
-#countlabel{
+#countlabel1{
+    display: block;
+    text-align: center;
+    font-size: 8em;
+}
+#countlabel2{
+    display: block;
+    text-align: center;
+    font-size: 8em;
+}
+#countlabel3{
     display: block;
     text-align: center;
     font-size: 8em;
