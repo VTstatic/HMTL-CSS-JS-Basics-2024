@@ -1,19 +1,20 @@
-//string properties & methods
+//slice() = extract a section of a string
+//          and returns it as a new string,
+//          without modifying the original string
+//          spaces can be added at the beginning and end of character count
 
-let username = "Vladimir";
-let nagan = "  Vladimir  ";
-let telepon = "+63-956-810-4011";
+let fullName = "Vladimir Tabuyo";
+let firstName;
+let lastName;
 
-console.log(username.length);
-console.log(username.charAt());
-console.log(username.indexOf("r"));
-console.log(username.lastIndexOf("V"));
+lastName = fullName.slice(9);
+firstName = fullName.slice(0, 8);
 
-nagan = nagan.trim(); //trim spaces
-//nagan = nagan.toUpperCase();
-//nagan = nagan.toLowerCase();
-console.log(nagan);
+//displaying Firt Name and Last Name using start and spaces
+spacesFirst = fullName.slice(0 , fullName.indexOf(" "));
+spacesLast = fullName.slice(fullName.indexOf(" ") + 1);
 
-//replace characters
-telepon = telepon.replaceAll("-", " ")
-console.log(telepon);
+console.log(lastName);
+console.log(firstName);
+console.log(spacesFirst);
+console.log(spacesLast);
