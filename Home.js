@@ -1,20 +1,8 @@
-//slice() = extract a section of a string
-//          and returns it as a new string,
-//          without modifying the original string
-//          spaces can be added at the beginning and end of character count
+//method chaining = calling one method after another
+//                  in one continuous line of code
 
-let fullName = "Vladimir Tabuyo";
-let firstName;
-let lastName;
+let userName = "Vladimir";
 
-lastName = fullName.slice(9);
-firstName = fullName.slice(0, 8);
+let letter = userName.charAt(0).toUpperCase().trim();
 
-//displaying Firt Name and Last Name using start and spaces
-spacesFirst = fullName.slice(0 , fullName.indexOf(" "));
-spacesLast = fullName.slice(fullName.indexOf(" ") + 1);
-
-console.log(lastName);
-console.log(firstName);
-console.log(spacesFirst);
-console.log(spacesLast);
+console.log(letter);
